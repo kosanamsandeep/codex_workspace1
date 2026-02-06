@@ -48,8 +48,12 @@ python -m src.cli add-topic <course_id> "Graphs"
 python -m src.cli plan-session <topic_id> 2026-02-08 45
 python -m src.cli complete-session <session_id>
 python -m src.cli list-sessions
-python -m src.cli weekly-report 2026-02-03
+python -m src.cli weekly-report 2026-02-02
 ```
+
+Notes:
+- `plan-session` requires a **topic_id** (not a course_id).
+- `weekly-report` requires `week_start` to be a **Monday**.
 
 ## Tests and Code Coverage
 
