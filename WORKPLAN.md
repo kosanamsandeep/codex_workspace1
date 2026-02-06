@@ -20,8 +20,8 @@ Personal Study Planner (CLI, offline). Features: manage courses/topics, plan ses
 - [x] Step 6: Implement Repositories/Adapters (Dev C)
 - [x] Step 7: Implement CLI + E2E tests (Dev D)
 - [x] Step 8: Add unit + integration tests
-- [ ] Step 9: Documentation updates (README + docstrings)
-- [ ] Step 10: Run tests, merge into `dev`, PR to `main`
+- [x] Step 9: Documentation updates (README + docstrings)
+- [x] Step 10: Run tests, merge into `dev`, PR to `main`
 
 ## PR Workflow
 - Feature branches are created from `dev`
