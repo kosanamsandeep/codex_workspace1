@@ -55,7 +55,7 @@ def build_parser() -> argparse.ArgumentParser:
     add_course = sub.add_parser("add-course", help="Create a course")
     add_course.add_argument("name")
 
-    list_course = sub.add_parser("list-courses", help="List courses")
+    sub.add_parser("list-courses", help="List courses")
 
     delete_course_parser = sub.add_parser("delete-course", help="Delete a course")
     delete_course_parser.add_argument("course_id")
@@ -81,7 +81,7 @@ def build_parser() -> argparse.ArgumentParser:
     complete_session_parser.add_argument("session_id")
     complete_session_parser.add_argument("--completed-at")
 
-    list_sessions_parser = sub.add_parser("list-sessions", help="List sessions")
+    sub.add_parser("list-sessions", help="List sessions")
 
     report_parser = sub.add_parser("weekly-report", help="Generate weekly report")
     report_parser.add_argument("week_start")
