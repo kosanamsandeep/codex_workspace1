@@ -19,7 +19,7 @@ Personal Study Planner (CLI, offline). Features: manage courses/topics, plan ses
 - [x] Step 5: Implement Use Cases (Dev B)
 - [x] Step 6: Implement Repositories/Adapters (Dev C)
 - [x] Step 7: Implement CLI + E2E tests (Dev D)
-- [ ] Step 8: Add unit + integration tests
+- [x] Step 8: Add unit + integration tests
 - [ ] Step 9: Documentation updates (README + docstrings)
 - [ ] Step 10: Run tests, merge into `dev`, PR to `main`
 
