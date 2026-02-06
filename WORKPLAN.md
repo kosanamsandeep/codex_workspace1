@@ -15,7 +15,7 @@ Personal Study Planner (CLI, offline). Features: manage courses/topics, plan ses
 - [ ] Step 1: Finalize requirements + acceptance criteria
 - [x] Step 2: Create `dev` branch + folder structure
 - [x] Step 3: Create feature branches for each dev
-- [ ] Step 4: Implement Domain layer (Dev A)
+- [x] Step 4: Implement Domain layer (Dev A)
 - [ ] Step 5: Implement Use Cases (Dev B)
 - [ ] Step 6: Implement Repositories/Adapters (Dev C)
 - [ ] Step 7: Implement CLI + E2E tests (Dev D)
